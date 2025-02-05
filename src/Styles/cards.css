@@ -52,3 +52,52 @@
     font-style: italic;
     color:rgb(76, 74, 74);
 }
+
+
+.new-goal-dialog-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-goal-dialog{
+    position: relative;
+    width: 80vw; 
+    min-width: 600px;
+    height: 600px;
+
+    
+    
+    display:flex;
+    border-radius: 10px;
+
+    background-color: rgb(253, 244, 227);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.content-new-goal{
+    display: flex;
+    width:100%;
+}
+.divider {
+    width: 1px;
+    height: 500px;
+    background-color: #000;
+  }
+  .div-inputs{
+    width:50vw
+  }
+  .div-linha-tempo{
+    display: grid;
+    width:40%;
+  }
+  .title-linha-tempo{
+    margin: 0 auto;
+  }

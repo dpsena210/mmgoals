@@ -32,6 +32,35 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+.tooltip-add-goals{
+    visibility: hidden;
+    height:30px !important;
+    position: relative;
+    width:10vw;
+    font-size:14px;
+    background-color: bisque;
+    border-radius:5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    align-content: center;
+}
+
+.container-add-goals-button{
+    display:flex;
+    justify-content:center;
+}
+.container-add-goals{
+    display:grid;
+    justify-content:center;
+    margin-top:10px;
+}
+.container-add-goals:hover .tooltip-add-goals{
+    visibility: visible;
+    opacity: 1;
+    
+   
+    
+
+}
 .icon-add{
     width:30px;
     height: 30px;
@@ -45,4 +74,36 @@
 }
 .add-goals-button:active {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);  /* Sombra mais intensa quando clicado */
+}
+
+.div-actions-new-goal-dialog{
+    position:fixed;
+    margin: 650px auto 0 auto;
+    display:flex;
+    z-index: 8888;
+
+}
+.button-save-new-dialog{
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    border:none;
+    background-color: rgb(254, 238, 241);
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    font-size: 14px;
+    margin:10px;
+    cursor: pointer;
+}
+.button-close-new-dialog{
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    border:none;
+    background-color: rgb(242, 168, 182);
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    font-size: 14px;
+    margin:10px;
+    cursor: pointer;
 }

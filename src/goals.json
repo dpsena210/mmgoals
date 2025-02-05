@@ -5,7 +5,9 @@
     "valor": "20 mil",
     "cor":"amarela",
     "categoria":"curto prazo",
-    "data":"2025-01-01"
+    "data":"2025-01-01",
+    "combinado":true,
+    "qte_meses": 12
 },
 {
     "titulo": "Carro",
@@ -13,22 +15,34 @@
     "valor": "35 mil",
     "cor":"azul",
     "categoria":"longo prazo",
-    "data":"2025-01-01"
+    "data":"2025-01-01",
+    "combinado":true,
+    "qte_meses": 12
+
+
 },
 {
-    "titulo": "Carro",
-    "descricao": "Ford mustang",
-    "valor": "130 mil",
+    "titulo": "Viagem",
+    "descricao": "Paris",
+    "valor": "40 mil",
     "cor":"azul",
     "categoria":"longo prazo",
-    "data":"2025-01-01"
+    "data":"2025-01-01",
+    "combinado":true,
+    "qte_meses": 12
+
+
 },
 {
-    "titulo": "Carro",
-    "descricao": "Ford mustang",
-    "valor": "30 mil",
+    "titulo": "Negócio",
+    "descricao": "Loja online",
+    "valor": "50",
     "cor":"azul",
     "categoria":"longo prazo",
-    "data":"2025-01-01"
+    "data":"2025-01-01",
+    "combinado":false,
+    "qte_meses": 12
+
+
 }
 ]
