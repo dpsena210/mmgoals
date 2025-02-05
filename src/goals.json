@@ -1,0 +1,34 @@
+[
+    {
+    "titulo": "Casamento",
+    "descricao": "Casamento em 2025, o objetivo agora é casa em 2025 de modo a conseguir todas as nossas coisas e sonhos juntos",
+    "valor": "20 mil",
+    "cor":"amarela",
+    "categoria":"curto prazo",
+    "data":"2025-01-01"
+},
+{
+    "titulo": "Carro",
+    "descricao": "Ford mustang",
+    "valor": "35 mil",
+    "cor":"azul",
+    "categoria":"longo prazo",
+    "data":"2025-01-01"
+},
+{
+    "titulo": "Carro",
+    "descricao": "Ford mustang",
+    "valor": "130 mil",
+    "cor":"azul",
+    "categoria":"longo prazo",
+    "data":"2025-01-01"
+},
+{
+    "titulo": "Carro",
+    "descricao": "Ford mustang",
+    "valor": "30 mil",
+    "cor":"azul",
+    "categoria":"longo prazo",
+    "data":"2025-01-01"
+}
+]
